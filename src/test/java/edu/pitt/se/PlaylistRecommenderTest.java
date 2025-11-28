@@ -12,7 +12,7 @@ public class PlaylistRecommenderTest {
 
     @Test
     void testClassifyEnergyHigh() {
-        // You can use 'recommender' immediately
+        // Test HIGH
         List<Integer> fastSongs = Arrays.asList(140, 160, 150);
         assertEquals("HIGH", recommender.classifyEnergy(fastSongs));
     }
